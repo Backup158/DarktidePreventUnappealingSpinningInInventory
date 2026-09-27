@@ -3,5 +3,6 @@
   "description": "Stops weapon previews from rotating in the inventory view.",
   "version": "1.0.0",
   "author": "Backup158",
-  "source": "https://github.com/Backup158/DarktideLittleMods"
+  "homepage": "https://www.nexusmods.com/games/warhammer40kdarktide/mods/1348",
+  "source": "https://github.com/Backup158/DarktidePreventUnappealingSpinningInInventory"
 }
