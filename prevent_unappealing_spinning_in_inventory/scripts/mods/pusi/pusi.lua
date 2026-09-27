@@ -12,7 +12,10 @@ end)
 
 -- UI Weapon Spawner activates the autospin in UIWeaponSpawner.update()
 -- That calls _auto_spin_values to figure out where to spin the gun next
--- Instead of trying to surgically remove the rotation from there, I'm just going to eliminate the values and make it spit out the same thing every thing, causing no change
+--  Instead of trying to surgically remove the rotation from there, 
+--  I'm just going to eliminate the source values and make it spit out the same thing every thing, causing no change
+--  supply chain attack, y'feel me
+--  why did i say that
 mod:hook_origin(CLASS.UIWeaponSpawner, "_auto_spin_values", function (self, ...)
     return 0, 0
 end)
