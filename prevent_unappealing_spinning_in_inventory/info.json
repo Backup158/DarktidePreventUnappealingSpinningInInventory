@@ -1,0 +1,7 @@
+{
+  "name": "Prevent Unappealing Spinning in Inventory (PUSI)",
+  "description": "Stops weapon previews from rotating in the inventory view.",
+  "version": "1.0.0",
+  "author": "Backup158",
+  "source": "https://github.com/Backup158/DarktideLittleMods"
+}
